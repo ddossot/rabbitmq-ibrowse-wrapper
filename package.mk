@@ -1,0 +1,10 @@
+APP_NAME:=ibrowse
+
+UPSTREAM_GIT:=https://github.com/cmullaparthi/ibrowse.git
+UPSTREAM_REVISION:=6ed0f3efeee94ea6576d
+RETAIN_UPSTREAM_VERSION:=true
+WRAPPER_PATCHES:=
+
+UPSTREAM_INCLUDE_DIRS+=$(CLONE_DIR)/src
+ORIGINAL_APP_FILE=$(CLONE_DIR)/src/$(APP_NAME).app.src
+
